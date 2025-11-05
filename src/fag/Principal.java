@@ -76,7 +76,7 @@ public class Principal {
  	public static void AdicionarCarro() {
  		Carros newCarro = addCarro();
  		if (newCarro != null) {
- 			garagem.add(addCarro());
+ 			garagem.add(newCarro);
  	 		System.out.println("Carro adicionado com sucesso");
 		}
  		else {
